@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-pip install mongo
-
 from flask import Flask, render_template
 from flask_pymongo import PyMongo
 import scraping
@@ -25,7 +20,7 @@ def scrape():
    mars.update({}, mars_data, upsert=True)
    return "Scraping Successful!"
 
-.update(query_parameter, data, options)
+df.update(query_parameter, data, options)
 
 if __name__ == "__main__":
    app.run()
