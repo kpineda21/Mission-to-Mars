@@ -24,7 +24,3 @@ df.update(query_parameter, data, options)
 
 if __name__ == "__main__":
    app.run()
-
-
-
-
